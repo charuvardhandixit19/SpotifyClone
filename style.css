@@ -1,0 +1,119 @@
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    background-color: black;
+    height: 65px;
+    color: white;
+    align-items: center;
+
+}
+
+nav ul li{
+    padding: 0 18px;
+}
+.brand img {
+    width: 45px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.container{
+    min-height: 63vh;
+    background-color: black;
+    color: white;
+    font-family: serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 24px;
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+/* .container img{
+    width: 70vw;
+    height: 50vw;
+} */
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    background-color: black;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+#progressbar{
+    width: 75vw;
+}
+
+.icons{
+    margin-top: 15px;
+}
+
+.fa-solid{
+    padding: 5px;
+}
+
+.songitem{
+    height: 45px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
+    border-radius: 25px;
+    margin: 15px 0;
+    cursor: pointer;
+
+}
+
+.songitem img{
+    width: 45px;
+    margin: 0 25px;
+    border-radius: 20px;
+}
+
+.songname{
+    padding: 25px;
+}
+
+.songlistcontainer{
+    margin-top: 60px;
+    /* width: 25vw; */
+}
+
+.songinfo{
+    position: absolute;
+    left: 12vw;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
